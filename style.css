@@ -1,0 +1,76 @@
+:root {
+  --bg: #fdfcf8;
+  --text: #222;
+  --accent: #5e4b3c;
+}
+
+.dark {
+  --bg: #1f1d1b;
+  --text: #f2f2f2;
+  --accent: #d4af7f;
+}
+
+body {
+  font-family: 'Georgia', serif;
+  background-color: var(--bg);
+  color: var(--text);
+  margin: 0;
+  padding: 0;
+  transition: all 0.3s ease;
+}
+
+header {
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--accent);
+  color: white;
+}
+
+header h1 {
+  margin: 0;
+}
+
+#themeToggle {
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: white;
+}
+
+.intro {
+  padding: 1rem 2rem;
+  font-style: italic;
+}
+
+.posts {
+  padding: 1rem 2rem;
+}
+
+.posts ul {
+  list-style: none;
+  padding: 0;
+}
+
+.posts li {
+  margin: 0.5rem 0;
+}
+
+.posts a {
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.posts a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  color: var(--accent);
+}
